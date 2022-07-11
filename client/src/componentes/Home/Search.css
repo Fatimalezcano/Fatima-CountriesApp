@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,400;1,500&display=swap");
+
+.boton {
+  color: grey;
+  border-radius: 5px;
+  height: 45%;
+  /* border: 2px solid rgb(173, 164, 58); */
+  background-color: rgba(202, 191, 69, 0.288);
+  /* background-color: rgba(202, 191, 69, 0.63); */
+  font-family: Poppins;
+  font-size: 15px;
+  /* doy movimiento al clickear el boton */
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  /* sombra */
+  box-shadow: 0 2px 2px 0 grey, 0 2px 2px 0 grey;
+  border: none;
+  outline: none;
+}
+
+/* cambio de color al pasar por encima */
+.boton:hover {
+  background-color: rgba(177, 170, 76, 0.801);
+  color: white;
+}
+
+/* doy movimiento al clickear el boton */
+.boton:active {
+  background-color: darkkhaki;
+  box-shadow: 0 5px darkgray;
+  transform: translateY(5px);
+}
+
+.buscador {
+  font-size: 15px;
+  font-family: Poppins;
+  /* border: 2px solid rgb(173, 164, 58); */
+  background-color: rgba(202, 191, 69, 0.288);
+  border-radius: 5px;
+  width: 70%;
+  height: 40%;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 0 2px 2px 0 grey, 0 2px 2px 0 grey;
+  border: none;
+  outline: none;
+}
+.buscador:active {
+  background-color: darkkhaki;
+  box-shadow: 0 5px darkgray;
+  transform: translateY(4px);
+}
+
+.buscador:hover {
+  background-color: rgba(177, 170, 76, 0.801);
+  color: white;
+}

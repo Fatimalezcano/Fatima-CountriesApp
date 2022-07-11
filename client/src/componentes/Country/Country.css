@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,400;1,500&display=swap");
+
+.countryClass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+  width: 20rem;
+  height: 20rem;
+  border: darkkhaki;
+  border-radius: 9px;
+  border-color: darkgrey;
+  background-color: rgba(199, 193, 131, 0.61);
+  font-family: Poppins;
+  font-size: 18px;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.479), 0 2px 2px 0 white;
+  transition: 0.3s;
+}
+
+.countryClass:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.flag {
+  width: 100%;
+  /* margin-top: 20px; */
+  border-radius: 9px;
+  height: 100%;
+}
+
+.container-flag {
+  width: 260px;
+  height: 174px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.name {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #222;
+  font-weight: bolder;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.699), 1px -1px 0 white;
+}
+
+.continent {
+  margin-top: 5px;
+  color: rgb(68, 67, 67);
+  font-weight: 500;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.63), 1px -1px 0 white;
+}
+
+.detail {
+  color: #222;
+  font-weight: 550;
+  font-size: 15px;
+  font-family: Poppins;
+  background-color: rgba(202, 191, 69, 0.5);
+  border-radius: 15px;
+  margin-top: 5px;
+  box-shadow: 0 2px 2px 0 grey, 0 2px 2px 0 grey;
+  border: none;
+  outline: none;
+}
+
+.detail:hover {
+  background-color: rgba(177, 170, 76, 0.801);
+  color: white;
+}

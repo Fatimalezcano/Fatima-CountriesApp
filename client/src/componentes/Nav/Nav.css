@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,400;1,500&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("https://wallpaper.dog/large/20512866.jpg");
+  height: 70px;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0px 25px 20px -25px #111;
+}
+
+.tituloNav {
+  color: rgb(199, 192, 120);
+  font-size: 40px;
+  font-family: Poppins;
+  font-weight: 600;
+  text-shadow: -4px 3px 3px rgba(0, 0, 0, 0.555), 1px -1px 0 rgb(241, 229, 205);
+  line-height: 70px;
+  padding: 0 40px;
+  transition: 0.6s;
+}
+
+.search {
+  display: flex;
+  line-height: 70px;
+  margin-right: 2rem;
+}
+
+.tituloNav:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+
+/* .crear-actividad {
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  margin-right: -25px;
+  color: grey;
+  border-radius: 5px;
+  background-color: rgba(202, 191, 69, 0.527);
+  box-shadow: 0 2px 2px 0 grey, 0 2px 2px 0 grey;
+  padding: 0px 6px 0 6px;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+}
+
+.crear-actividad:hover {
+  color: rgba(173, 123, 94, 0.849);
+} */
+
+.nav-home {
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  /* line-height: 80px; */
+  text-decoration: none;
+  margin-right: 25px;
+  color: rgb(70, 68, 68);
+  border-radius: 5px;
+  background-color: rgba(202, 191, 69, 0.288);
+  box-shadow: 0 2px 2px 0 grey, 0 2px 2px 0 grey;
+  padding: 0px 6px 0 6px;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+}
+
+/* cambio de color al pasar por encima */
+.nav-home:hover {
+  background-color: rgba(177, 170, 76, 0.801);
+  color: white;
+  transition: 0.5s;
+}
+
+/* doy movimiento al clickear el boton */
+.nav-home:active {
+  background-color: darkkhaki;
+  box-shadow: 0 5px darkgray;
+  transform: translateY(5px);
+}
+
+.div-container {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,66 @@
+.home {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  z-index: -1;
+  position: absolute;
+  background-image: url("https://previews.123rf.com/images/avgustus/avgustus1711/avgustus171100075/90806689-fondo-de-m%C3%A1rmol-blanco-y-oro-dise%C3%B1o-de-textura-veteada-fondo-abstracto-valores-estilo-de-pintura-al-.jpg");
+}
+
+/* .countriesClass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+} */
+
+.filter {
+  margin-top: 50px;
+}
+
+.saludo {
+  margin-top: 3rem;
+  font-family: Poppins;
+  background-color: rgba(245, 245, 220, 0.384);
+  width: 60%;
+  height: fit-content;
+  border-radius: 20px;
+  border-style: double;
+  box-shadow: 0 2px 2px 0 #222, 0 2px 2px 0 grey;
+}
+
+.saludo h1 {
+  margin-top: 1rem;
+  font-size: 50px;
+  color: rgb(175, 116, 96);
+  text-shadow: -3px 2px 2px rgba(0, 0, 0, 0.555), 2px -2px 0 rgb(255, 255, 255);
+}
+
+.saludo {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 60%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 60%;
+  }
+}
+
+.saludo h3 {
+  margin: 3rem;
+
+  margin-top: 1rem;
+  font-size: 25px;
+  color: rgb(161, 117, 101);
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.555), 1px -1px 0 rgb(255, 255, 255);
+}

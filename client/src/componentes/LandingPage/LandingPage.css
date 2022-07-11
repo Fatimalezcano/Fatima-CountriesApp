@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,400;1,500&display=swap");
+
+* {
+  text-decoration: none;
+}
+
+.landing-container {
+  background-image: url("https://wallpaper.dog/large/20512866.jpg");
+  /* background: cover; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 9;
+}
+
+/* .boton {
+  background-color: rgb(150, 145, 84);
+  font-size: 20px;
+  border-radius: 13px;
+  border-color: darkgray;
+  font-family: Poppins;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.boton:hover {
+  transform: scale(1.1);
+  transition: 0.5s; */
+/* } */
+
+.titulo {
+  font-family: Poppins;
+  font-size: 40px;
+  color: rgb(165, 159, 92);
+  text-shadow: -5px 5px 4px rgba(0, 0, 0, 0.5),
+    3px -3px 0 rgba(241, 224, 161, 0.781);
+  margin-bottom: 200px;
+  transition: 0.5s;
+}
+
+.titulo:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
